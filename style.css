@@ -284,6 +284,9 @@ body {
     color: white;
   }
 }
+.overlay {
+  display: none;
+}
 .modal-open {
   overflow: hidden;
 }
