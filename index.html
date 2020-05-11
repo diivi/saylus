@@ -20,11 +20,14 @@
         <b> Get Started</b>
       </button>
       <div id="mobile-menu">
-        <div class ="icon">
-        <span class="line top"></span>
-        <span class="line middle"></span>
-        <span class="line bottom"></span>
+        <div class="icon">
+          <span class="line top"></span>
+          <span class="line middle"></span>
+          <span class="line bottom"></span>
+        </div>
       </div>
+      <div class="overlay">
+
       </div>
     </div>
     <div id="main-head">
@@ -71,44 +74,44 @@
     </div>
   </body>
   <script>
-    $("#mobile-menu").click(function(){
-      $(".icon").toggleClass("close");
-    });
-    
-    window.onscroll = function () {
-      scrollFunction();
-    };
+      $("#mobile-menu").click(function(){
+        $(".icon").toggleClass("close");
+      });
 
-    function scrollFunction() {
-      if (
-        window.innerWidth > 815 &&
-        (document.body.scrollTop > 80 ||
-          document.documentElement.scrollTop > 80)
-      ) {
-        document.getElementById("navbar").style.padding = "30px 50px";
-        document.getElementById("logo").style.fontSize = "32px";
-      } else if (
-        window.innerWidth > 815 &&
-        (document.body.scrollTop < 80 ||
-          document.documentElement.scrollTop < 80)
-      ) {
-        document.getElementById("navbar").style.padding = "60px 50px";
-        document.getElementById("logo").style.fontSize = "38px";
-      } else if (
-        widnow.innerWidth < 815 &&
-        (document.body.scrollTop > 80 ||
-          document.documentElement.scrollTop > 80)
-      ) {
-        document.getElementById("navbar").style.padding = "30px 40px";
-        document.getElementById("logo").style.fontSize = "28px";
-      } else if (
-        window.innerWidth < 815 &&
-        (document.body.scrollTop < 80 ||
-          document.documentElement.scrollTop < 80)
-      ) {
-        document.getElementById("navbar").style.padding = "30px 40px";
-        document.getElementById("logo").style.fontSize = "32px";
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          window.innerWidth > 815 &&
+          (document.body.scrollTop > 80 ||
+            document.documentElement.scrollTop > 80)
+        ) {
+          document.getElementById("navbar").style.padding = "30px 50px";
+          document.getElementById("logo").style.fontSize = "32px";
+        } else if (
+          window.innerWidth > 815 &&
+          (document.body.scrollTop < 80 ||
+            document.documentElement.scrollTop < 80)
+        ) {
+          document.getElementById("navbar").style.padding = "60px 50px";
+          document.getElementById("logo").style.fontSize = "38px";
+        } else if (
+          widnow.innerWidth < 815 &&
+          (document.body.scrollTop > 80 ||
+            document.documentElement.scrollTop > 80)
+        ) {
+          document.getElementById("navbar").style.padding = "30px 40px";
+          document.getElementById("logo").style.fontSize = "28px";
+        } else if (
+          window.innerWidth < 815 &&
+          (document.body.scrollTop < 80 ||
+            document.documentElement.scrollTop < 80)
+        ) {
+          document.getElementById("navbar").style.padding = "30px 40px";
+          document.getElementById("logo").style.fontSize = "32px";
+        }
       }
-    }
   </script>
 </html>

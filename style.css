@@ -233,6 +233,7 @@ body {
   height: 4px;
   width: 100%;
   background-color: black;
+  border-radius: 30%;
   transition: cubic-bezier(0.26, 0.1, 0.27, 1.55) 0.35s;
 }
 .top {
@@ -244,11 +245,12 @@ body {
 .bottom {
   top: 78%;
 }
-.icon.close .top{
+.icon.close .top {
   transform: rotate(45deg);
-  top:48%
+  top: 48%;
 }
-.icon.close .middle,.icon.close .bottom{
-transform: rotate(-45deg);
-top:48%
+.icon.close .middle,
+.icon.close .bottom {
+  transform: rotate(-45deg);
+  top: 48%;
 }
