@@ -104,6 +104,11 @@
   <script>
     $("#mobile-menu").click(function () {
       $(".icon").toggleClass("close");
+      if ($(".icon").hasClass("close")) {
+        $("body > :not(#navbar)").hide();
+      } else {
+        $("body > :not(#navbar)").show();
+      }
     });
 
     window.onscroll = function () {
