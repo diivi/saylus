@@ -6,6 +6,14 @@
     <title>SAYLUS</title>
     <link rel="stylesheet" href="style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div id="navbar">
@@ -26,9 +34,7 @@
           <span class="line bottom"></span>
         </div>
       </div>
-      <div class="overlay">
-
-      </div>
+      <div class="overlay"></div>
     </div>
     <div id="main-head">
       <h1>Safety Simplified.</h1>
@@ -72,46 +78,68 @@
         the barrier of poor design among security products.
       </p>
     </div>
+    <div id="subscribe">
+      <h1>Interested? Subscribe to our newsletter!</h1>
+      <p>
+        Sign up with your email address to get updates regarding our products
+      </p>
+      <center>
+        <button id="sub-button">
+          <b> Subscribe!</b>
+        </button>
+      </center>
+    </div>
+    <footer>
+      <div class="info" style="display: inline-block;">
+        <h1>SAYLUS</h1>
+        <p>Gurgaon-122001<br />Haryana<br />India</p>
+      </div>
+      <div class="social" style="display: inline-block;">
+        <i style="font-size: 50px;" class="fa fa-instagram"></i>
+        <i style="font-size: 50px;" class="fa fa-facebook"></i>
+        <i style="font-size: 50px;" class="fa fa-linkedin"></i>
+      </div>
+    </footer>
   </body>
   <script>
-      $("#mobile-menu").click(function(){
-        $(".icon").toggleClass("close");
-      });
+    $("#mobile-menu").click(function () {
+      $(".icon").toggleClass("close");
+    });
 
-      window.onscroll = function () {
-        scrollFunction();
-      };
+    window.onscroll = function () {
+      scrollFunction();
+    };
 
-      function scrollFunction() {
-        if (
-          window.innerWidth > 815 &&
-          (document.body.scrollTop > 80 ||
-            document.documentElement.scrollTop > 80)
-        ) {
-          document.getElementById("navbar").style.padding = "30px 50px";
-          document.getElementById("logo").style.fontSize = "32px";
-        } else if (
-          window.innerWidth > 815 &&
-          (document.body.scrollTop < 80 ||
-            document.documentElement.scrollTop < 80)
-        ) {
-          document.getElementById("navbar").style.padding = "60px 50px";
-          document.getElementById("logo").style.fontSize = "38px";
-        } else if (
-          widnow.innerWidth < 815 &&
-          (document.body.scrollTop > 80 ||
-            document.documentElement.scrollTop > 80)
-        ) {
-          document.getElementById("navbar").style.padding = "30px 40px";
-          document.getElementById("logo").style.fontSize = "28px";
-        } else if (
-          window.innerWidth < 815 &&
-          (document.body.scrollTop < 80 ||
-            document.documentElement.scrollTop < 80)
-        ) {
-          document.getElementById("navbar").style.padding = "30px 40px";
-          document.getElementById("logo").style.fontSize = "32px";
-        }
+    function scrollFunction() {
+      if (
+        window.innerWidth > 815 &&
+        (document.body.scrollTop > 80 ||
+          document.documentElement.scrollTop > 80)
+      ) {
+        document.getElementById("navbar").style.padding = "30px 50px";
+        document.getElementById("logo").style.fontSize = "32px";
+      } else if (
+        window.innerWidth > 815 &&
+        (document.body.scrollTop < 80 ||
+          document.documentElement.scrollTop < 80)
+      ) {
+        document.getElementById("navbar").style.padding = "60px 50px";
+        document.getElementById("logo").style.fontSize = "38px";
+      } else if (
+        window.innerWidth < 815 &&
+        (document.body.scrollTop > 80 ||
+          document.documentElement.scrollTop > 80)
+      ) {
+        document.getElementById("navbar").style.padding = "30px 40px";
+        document.getElementById("logo").style.fontSize = "28px";
+      } else if (
+        window.innerWidth < 815 &&
+        (document.body.scrollTop < 80 ||
+          document.documentElement.scrollTop < 80)
+      ) {
+        document.getElementById("navbar").style.padding = "30px 40px";
+        document.getElementById("logo").style.fontSize = "32px";
       }
+    }
   </script>
 </html>
