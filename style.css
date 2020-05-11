@@ -273,8 +273,20 @@ body {
   #subscribe #sub-button {
     padding: 20px 30px;
   }
+  .overlay {
+    height: 100vh;
+    width: 100%;
+    margin: 0px;
+    display: none;
+    background-color: black;
+  }
+  .overlay h1 {
+    color: white;
+  }
 }
-
+.modal-open {
+  overflow: hidden;
+}
 .icon {
   width: 30px;
   height: 30px;
@@ -305,12 +317,6 @@ body {
 .icon.close .bottom {
   transform: rotate(-45deg);
   top: 48%;
-}
-.overlay {
-  height: 100vh;
-  width: 100%;
-  margin: 0px;
-  display: none;
 }
 footer {
   width: 100%;

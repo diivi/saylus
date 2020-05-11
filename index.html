@@ -34,7 +34,12 @@
           <span class="line bottom"></span>
         </div>
       </div>
-      <div class="overlay"></div>
+    </div>
+    <div class="overlay">
+      <h1>Hello</h1>
+      <h1>Pls</h1>
+      <h1>Hlep</h1>
+      <h1>Im dumb</h1>
     </div>
     <div id="main-head">
       <h1>Safety Simplified.</h1>
@@ -104,10 +109,13 @@
   <script>
     $("#mobile-menu").click(function () {
       $(".icon").toggleClass("close");
+      var x = document.getElementsByClassName("overlay")[0];
       if ($(".icon").hasClass("close")) {
-        $("body > :not(#navbar)").hide();
+        x.style.display = "block";
+        $("body").addClass("modal-open");
       } else {
-        $("body > :not(#navbar)").show();
+        x.style.display = "none";
+        $("body").removeClass("modal-open");
       }
     });
 
