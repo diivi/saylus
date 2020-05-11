@@ -2,6 +2,8 @@
   box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
+
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
@@ -64,6 +66,15 @@ body {
   border-radius: 30px;
   margin-right: 20px;
   font-size: 18px;
+  outline: none;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+#navbar-button:hover{
+  background-color: #333333;
+}
+#navbar-button:active{
+  background-color: #555555;
 }
 #mobile-menu {
   display: none;
@@ -89,7 +100,7 @@ body {
   margin-top: 20px;
   font-size: 28px;
   text-align: center;
-  font-weight: 100;
+  font-weight: 300;
   color: white;
   vertical-align: middle;
 }
@@ -106,7 +117,7 @@ body {
   font-size: 18px;
 }
 #info1 {
-  height: 60vh;
+  min-height: 70vh;
   background-color: white;
   position: relative;
   padding: 5% 10% 5% 5%;
@@ -114,6 +125,7 @@ body {
 #info1 h1 {
   float: right;
   font-size: 52px;
+  font-weight: 300;
   margin-bottom: 2px;
 }
 #info1 p {
@@ -123,7 +135,7 @@ body {
 }
 
 #info2 {
-  height: 60vh;
+  height: 70vh;
   background-color: black;
   color: white;
   position: relative;
@@ -132,13 +144,14 @@ body {
 #info2 h1 {
   font-size: 52px;
   margin-bottom: 2px;
+  font-weight: 300;
 }
 #info2 p {
   font-size: 28px;
 }
 
 #info3 {
-  height: 60vh;
+  height: 70vh;
   background-color: white;
   position: relative;
   padding: 5% 10% 5% 5%;
@@ -147,6 +160,7 @@ body {
   float: right;
   font-size: 52px;
   margin-bottom: 2px;
+  font-weight: 300;
 }
 #info3 p {
   float: right;
@@ -303,6 +317,12 @@ body {
     border-radius: 30px;
     font-size: 18px;
     margin-top: 20%;
+    outline: none;
+    transition-duration: 0.2s;
+  }
+  .menu button:active
+  {
+    background-color: #555555;
   }
 }
 @keyframes comein {

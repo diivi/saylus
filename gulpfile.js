@@ -5,6 +5,7 @@ gulp.task('serve', function() {
     browserSync.init({
         server: './src',
         notify: false,
+        ghostMode: false,
     });
 
     gulp.watch("./src/*.css", function(){
