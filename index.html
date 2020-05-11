@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SAYLUS</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body>
     <div id="navbar">
@@ -15,45 +16,98 @@
         <a href="#about">Financials</a>
         <a href="#about">Shop</a>
       </div>
-      <bu id="navbar-button">
+      <button id="navbar-button">
         <b> Get Started</b>
       </button>
+      <div id="mobile-menu">
+        <div class ="icon">
+        <span class="line top"></span>
+        <span class="line middle"></span>
+        <span class="line bottom"></span>
+      </div>
+      </div>
     </div>
-    <div id = "main-head">
+    <div id="main-head">
       <h1>Safety Simplified.</h1>
       <h6>Stay safe, All day, Everyday, Anywhere.</h6>
-      <center><button id = "shop">Shop Now</button></center>  
+      <center><button id="shop">Shop Now</button></center>
     </div>
-    <div id = "info1">
+    <div id="info1">
       <h1>Our story</h1>
-      <p>The ever-increasing numbers of  brutal crimes against women especially the recent cases let us thinking of doing something for the safety of this segment. After Numerous research hours and surveys, SAYLUS, highlighted the problem of delay in security to be the most important cause. After holding numerous discussions with the software and the finance team about the the viability of a solution, we came up with a brand that represents the segment about which people talk a lot but don’t effectively do much : Women.</p>
+      <p>
+        The ever-increasing numbers of brutal crimes against women especially
+        the recent cases let us thinking of doing something for the safety of
+        this segment. After Numerous research hours and surveys, SAYLUS,
+        highlighted the problem of delay in security to be the most important
+        cause. After holding numerous discussions with the software and the
+        finance team about the the viability of a solution, we came up with a
+        brand that represents the segment about which people talk a lot but
+        don’t effectively do much : Women.
+      </p>
     </div>
-    <div id = "info2">
+    <div id="info2">
       <h1>Our Purpose</h1>
-      <p>We seek to tackle the sexual violence against women resulting from the humongous problem of information, time and accessibility through our innovative yet simple product in a progressive manner.
-
-        At SAYLUS, we not only provide refined products but understand that security is more than just a product or service and we believe in creating a heartfelt connection with our customers thus ensuring maximum satisfaction.</p>
+      <p>
+        We seek to tackle the sexual violence against women resulting from the
+        humongous problem of information, time and accessibility through our
+        innovative yet simple product in a progressive manner. At SAYLUS, we not
+        only provide refined products but understand that security is more than
+        just a product or service and we believe in creating a heartfelt
+        connection with our customers thus ensuring maximum satisfaction.
+      </p>
     </div>
-    <div id = "info3">
+    <div id="info3">
       <h1>Our Product</h1>
-      <p>We provide a women safety band, but don't you dare think of it as the run-of-the-mill safety band which is unattractive and and works on unreliable pulse rates. We present you the Next Generation Safety Band, with an AI interface based on voice recognition, which not only send message to your trusted contacts and PCR, plays a fake call and has a buzzer, but also works with our mobile app and even without a it through LTE. With our team, we have made a highly efficient band which breaks the barrier of poor design among security products.</p>
+      <p>
+        We provide a women safety band, but don't you dare think of it as the
+        run-of-the-mill safety band which is unattractive and and works on
+        unreliable pulse rates. We present you the Next Generation Safety Band,
+        with an AI interface based on voice recognition, which not only send
+        message to your trusted contacts and PCR, plays a fake call and has a
+        buzzer, but also works with our mobile app and even without a it through
+        LTE. With our team, we have made a highly efficient band which breaks
+        the barrier of poor design among security products.
+      </p>
     </div>
   </body>
   <script>
+    $("#mobile-menu").click(function(){
+      $(".icon").toggleClass("close");
+    });
+    
     window.onscroll = function () {
       scrollFunction();
     };
 
     function scrollFunction() {
       if (
-        document.body.scrollTop > 80 ||
-        document.documentElement.scrollTop > 80
+        window.innerWidth > 815 &&
+        (document.body.scrollTop > 80 ||
+          document.documentElement.scrollTop > 80)
       ) {
         document.getElementById("navbar").style.padding = "30px 50px";
         document.getElementById("logo").style.fontSize = "32px";
-      } else {
+      } else if (
+        window.innerWidth > 815 &&
+        (document.body.scrollTop < 80 ||
+          document.documentElement.scrollTop < 80)
+      ) {
         document.getElementById("navbar").style.padding = "60px 50px";
         document.getElementById("logo").style.fontSize = "38px";
+      } else if (
+        widnow.innerWidth < 815 &&
+        (document.body.scrollTop > 80 ||
+          document.documentElement.scrollTop > 80)
+      ) {
+        document.getElementById("navbar").style.padding = "30px 40px";
+        document.getElementById("logo").style.fontSize = "28px";
+      } else if (
+        window.innerWidth < 815 &&
+        (document.body.scrollTop < 80 ||
+          document.documentElement.scrollTop < 80)
+      ) {
+        document.getElementById("navbar").style.padding = "30px 40px";
+        document.getElementById("logo").style.fontSize = "32px";
       }
     }
   </script>
