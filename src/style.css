@@ -8,6 +8,106 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
   background-color: white;
+  overflow-x: hidden;
+}
+
+/* GLOBAL STYLES HELLO EK DO HI HAI PLS DON'T KILL ME */
+figure img
+{
+  margin-bottom: 40px;
+  width: 50vw;
+  object-fit: cover;
+}
+
+figure figcaption
+{
+  text-align: center;
+  font-weight: 500;
+}
+/* DONE */
+
+.title
+{
+  background-color: black;
+  min-height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 0 15vw;
+}
+
+.title h3
+{
+  margin: 0;
+  margin-top: 15%;
+  padding: 0;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.title-in
+{
+  background-color: black;
+  min-height: 32vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 0 15vw;
+}
+
+.title-in h3
+{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.section
+{
+  width: 100vw;
+  margin: 0;
+  padding: 5vh 5vw;
+  min-height: 20vh;
+}
+
+.section h1
+{
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+
+.section p
+{
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.section figure
+{
+  margin: 50px 0;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section li
+{
+  font-size: 2rem;
+}
+
+.black
+{
+  background-color: black;
+  color: white;
 }
 
 #navbar {
@@ -212,7 +312,12 @@ body {
   background: black;
 }
 
-@media only screen and (max-width: 815px) {
+@media only screen and (max-width: 1000px) {
+  .title, .title-in
+  {
+    padding: 10vh 5vw;
+  }
+
   #navbar a:not(#logo) {
     display: none;
   }
