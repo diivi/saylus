@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap");
 
 body {
   margin: 0;
@@ -12,22 +12,19 @@ body {
 }
 
 /* GLOBAL STYLES HELLO EK DO HI HAI PLS DON'T KILL ME */
-figure img
-{
+figure img {
   margin-bottom: 40px;
   width: 50vw;
   object-fit: cover;
 }
 
-figure figcaption
-{
+figure figcaption {
   text-align: center;
   font-weight: 500;
 }
 /* DONE */
 
-.title
-{
+.title {
   background-color: black;
   min-height: 65vh;
   display: flex;
@@ -38,8 +35,7 @@ figure figcaption
   padding: 0 15vw;
 }
 
-.title h3
-{
+.title h3 {
   margin: 0;
   margin-top: 15%;
   padding: 0;
@@ -48,8 +44,7 @@ figure figcaption
   font-weight: 400;
 }
 
-.title-in
-{
+.title-in {
   background-color: black;
   min-height: 32vh;
   display: flex;
@@ -60,8 +55,7 @@ figure figcaption
   padding: 0 15vw;
 }
 
-.title-in h3
-{
+.title-in h3 {
   margin: 0;
   padding: 0;
   text-align: center;
@@ -69,27 +63,23 @@ figure figcaption
   font-weight: 400;
 }
 
-.section
-{
+.section {
   width: 100vw;
   margin: 0;
   padding: 5vh 5vw;
 }
 
-.section h1
-{
+.section h1 {
   font-size: 2.8rem;
   font-weight: 500;
 }
 
-.section p
-{
+.section p {
   font-size: 1.4rem;
   font-weight: 300;
 }
 
-.section figure
-{
+.section figure {
   margin: 50px 0;
   width: 100vw;
   display: flex;
@@ -98,13 +88,11 @@ figure figcaption
   align-items: center;
 }
 
-.section li
-{
+.section li {
   font-size: 2rem;
 }
 
-.black
-{
+.black {
   background-color: black;
   color: white;
 }
@@ -169,10 +157,10 @@ figure figcaption
   transition-duration: 0.2s;
   cursor: pointer;
 }
-#navbar-button:hover{
+#navbar-button:hover {
   background-color: #333333;
 }
-#navbar-button:active{
+#navbar-button:active {
   background-color: #555555;
 }
 #mobile-menu {
@@ -195,11 +183,29 @@ figure figcaption
   color: white;
   vertical-align: middle;
 }
-#main-head h6 {
+#main-head h6,
+#main-tech-head h6 {
   margin-top: 20px;
   font-size: 28px;
   text-align: center;
   font-weight: 300;
+  color: white;
+  vertical-align: middle;
+}
+#main-tech-head {
+  width: 100%;
+  height: 70vh;
+  padding: 0px;
+  background-color: black;
+  display: inline-block;
+}
+#main-tech-head h1 {
+  margin-top: 20%;
+  position: relative;
+  text-align: center;
+  margin-bottom: 0px;
+  font-size: 60px;
+  font-weight: 600;
   color: white;
   vertical-align: middle;
 }
@@ -232,6 +238,12 @@ figure figcaption
   font-size: 28px;
   text-align: end;
 }
+#tech-info1{
+    height: 30vh;
+    background-color: white;
+    position: relative;
+    padding: 3% 5% 5% 5%;
+}
 
 #info2 {
   height: 70vh;
@@ -247,6 +259,22 @@ figure figcaption
 }
 #info2 p {
   font-size: 28px;
+}
+
+#tech-info2 {
+  height: 70vh;
+  background-color: black;
+  color: white;
+  position: relative;
+  padding: 5% 10% 5% 5%;
+}
+#tech-info2 h1 {
+  font-size: 52px;
+  margin-bottom: 2px;
+  font-weight: 300;
+}
+#tech-info2 p {
+  font-size: 20px;
 }
 
 #info3 {
@@ -266,6 +294,68 @@ figure figcaption
   font-size: 28px;
   text-align: end;
 }
+#tech-info3 {
+  height: 70vh;
+  background-color: white;
+  position: relative;
+  padding: 5% 10% 5% 5%;
+}
+#tech-info3 h1 {
+  font-size: 52px;
+  margin-bottom: 2px;
+  font-weight: 300;
+}
+#tech-info3 p {
+  float: right;
+  font-size: 20px;
+}
+#tech-info4 {
+  height: 70vh;
+  background-color: white;
+  position: relative;
+  padding: 5% 10% 5% 5%;
+}
+#tech-info4 h1 {
+  font-size: 52px;
+  margin-bottom: 2px;
+  font-weight: 300;
+}
+#tech-info4 p {
+  float: right;
+  font-size: 20px;
+}
+#tech-info5 {
+  height: 40vh;
+  background-color: black;
+  color: white;
+  position: relative;
+  padding: 5% 10% 5% 5%;
+}
+#tech-info5 h1 {
+  font-size: 52px;
+  margin-bottom: 2px;
+  font-weight: 300;
+}
+#tech-info5 p {
+  font-size: 20px;
+}
+
+#tech-info6 {
+  height: 100vh;
+  background-color: white;
+  position: relative;
+  padding: 5% 10% 5% 5%;
+}
+#tech-info6 h1 {
+  font-size: 52px;
+  margin-bottom: 2px;
+  font-weight: 300;
+}
+#tech-info6 p {
+  float: right;
+  font-size: 20px;
+}
+
 #subscribe {
   height: 60vh;
   background-color: white;
@@ -312,8 +402,8 @@ figure figcaption
 }
 
 @media only screen and (max-width: 1000px) {
-  .title, .title-in
-  {
+  .title,
+  .title-in {
     padding: 10vh 5vw;
   }
 
@@ -424,8 +514,7 @@ figure figcaption
     outline: none;
     transition-duration: 0.2s;
   }
-  .menu button:active
-  {
+  .menu button:active {
     background-color: #555555;
   }
 }
@@ -491,4 +580,70 @@ footer h1 {
 .social {
   float: right;
   letter-spacing: 20px;
+}
+#tech-deet1 {
+  height: 50vh;
+  background-color: black;
+  color:white;
+  position: relative;
+  padding: 5% 10% 5% 5%;
+}
+#tech-deet1 h1 {
+  float: right;
+  font-size: 52px;
+  font-weight: 300;
+  margin-bottom: 2px;
+}
+#tech-deet1 p {
+  float: right;
+  font-size: 22px;
+  text-align: end;
+}
+#tech-deet2 {
+  height: 40vh;
+  background-color: black;
+  color: white;
+  position: relative;
+  padding: 5% 10% 5% 5%;
+}
+#tech-deet2 h1 {
+  font-size: 52px;
+  margin-bottom: 2px;
+  font-weight: 300;
+}
+#tech-deet2 p {
+  font-size: 22px;
+}
+#tech-deet3 {
+  height: 40vh;
+  background-color: black;
+  color:white;
+  position: relative;
+  padding: 5% 10% 5% 5%;
+}
+#tech-deet3 h1 {
+  float: right;
+  font-size: 52px;
+  margin-bottom: 2px;
+  font-weight: 300;
+}
+#tech-deet3 p {
+  float: right;
+  font-size: 22px;
+  text-align: end;
+}
+#tech-deet4 {
+  height: 50vh;
+  background-color: black;
+  color:white;
+  position: relative;
+  padding: 5% 10% 5% 5%;
+}
+#tech-deet4 h1 {
+  font-size: 52px;
+  font-weight: 300;
+  margin-bottom: 2px;
+}
+#tech-deet4 p {
+  font-size: 22px;
 }
