@@ -80,12 +80,17 @@ figure figcaption {
 }
 
 .section figure {
-  margin: 50px 0;
+  margin: 20px 0;
   width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.section ol figure
+{
+  transform: translate(-9%,0);
 }
 
 .section li {
@@ -402,6 +407,21 @@ figure figcaption {
 }
 
 @media only screen and (max-width: 1000px) {
+  figure img {
+    width: 90vw;
+  }
+
+  figure figcaption {
+    text-align: center;
+    width: 88vw;
+    font-weight: 500;
+  }
+
+  .section ol figure
+  {
+    transform: translate(-17.5%,0);
+  }
+
   .title,
   .title-in {
     padding: 10vh 5vw;
