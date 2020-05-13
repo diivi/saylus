@@ -168,7 +168,7 @@ figure figcaption {
 }
 #main-head {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   padding: 0px;
   background-color: black;
   display: inline-block;
@@ -194,7 +194,7 @@ figure figcaption {
 }
 #main-tech-head {
   width: 100%;
-  height: 70vh;
+  min-height: 70vh;
   padding: 0px;
   background-color: black;
   display: inline-block;
@@ -246,7 +246,7 @@ figure figcaption {
 }
 
 #info2 {
-  height: 70vh;
+  min-height: 70vh;
   background-color: black;
   color: white;
   position: relative;
@@ -278,7 +278,7 @@ figure figcaption {
 }
 
 #info3 {
-  height: 70vh;
+  min-height: 70vh;
   background-color: white;
   position: relative;
   padding: 5% 10% 5% 5%;
@@ -310,7 +310,7 @@ figure figcaption {
   font-size: 20px;
 }
 #tech-info4 {
-  height: 70vh;
+  min-height: 70vh;
   background-color: white;
   position: relative;
   padding: 5% 10% 5% 5%;
@@ -325,7 +325,7 @@ figure figcaption {
   font-size: 20px;
 }
 #tech-info5 {
-  height: 40vh;
+  min-height: 40vh;
   background-color: black;
   color: white;
   position: relative;
@@ -341,7 +341,7 @@ figure figcaption {
 }
 
 #tech-info6 {
-  height: 100vh;
+  min-height: 100vh;
   background-color: white;
   position: relative;
   padding: 5% 10% 5% 5%;
@@ -357,7 +357,7 @@ figure figcaption {
 }
 
 #subscribe {
-  height: 60vh;
+  min-height: 60vh;
   background-color: white;
   position: relative;
   padding: 5% 10% 5% 5%;
@@ -438,7 +438,7 @@ figure figcaption {
     font-size: 24px;
   }
   #main-tech-head {
-    height: 100vh;
+    min-height: 100vh;
   }
   #main-tech-head h1 {
     margin-top: 90%;
@@ -457,9 +457,8 @@ figure figcaption {
   }
   #info1,
   #info2,
-  #info3
-  {
-    height: 80vh;
+  #info3 {
+    min-height: 80vh;
     padding: 1% 5%;
   }
   #info1 h1,
@@ -475,10 +474,10 @@ figure figcaption {
     margin-top: 0px;
   }
   #tech-info4 {
-    height:110vh
+    min-height: 110vh;
   }
   #tech-info4 h1 {
-    font-size: 40px!important;
+    font-size: 40px !important;
     margin-bottom: 4px;
   }
   #tech-info4 p {
@@ -486,14 +485,14 @@ figure figcaption {
     margin-top: 0px;
   }
   #tech-info5 {
-    height:60vh
+    min-height: 60vh;
   }
   #tech-info5 p {
     font-size: 18px;
     margin-top: 0px;
   }
   #tech-info6 {
-    height:260vh
+    min-height: 260vh;
   }
   #tech-deet1 {
     min-height: 100vh !important;
@@ -503,8 +502,8 @@ figure figcaption {
     float: left;
   }
   #tech-deet1 p {
-    font-size: 16px!important;
-    text-align: start!important;
+    font-size: 16px !important;
+    text-align: start !important;
   }
   #tech-deet2 {
     min-height: 60vh !important;
@@ -513,33 +512,32 @@ figure figcaption {
     font-size: 30px !important;
   }
   #tech-deet2 p {
-    font-size: 16px!important;
-    text-align: start!important;
+    font-size: 16px !important;
+    text-align: start !important;
   }
   #tech-deet3 {
     min-height: 50vh !important;
   }
   #tech-deet3 h1 {
     font-size: 30px !important;
-    float: left!important;
+    float: left !important;
   }
   #tech-deet3 p {
-    font-size: 16px!important;
-    text-align: start!important;
+    font-size: 16px !important;
+    text-align: start !important;
   }
-  #tech-deet4{
+  #tech-deet4 {
     min-height: 70vh !important;
   }
   #tech-deet4 h1 {
     font-size: 30px !important;
   }
   #tech-deet4 p {
-    font-size: 16px!important;
-    text-align: start!important;
+    font-size: 16px !important;
+    text-align: start !important;
   }
   #tech-info1,
-  #tech-info2
-   {
+  #tech-info2 {
     min-height: 100vh;
   }
   #tech-info3 {
@@ -674,7 +672,7 @@ footer h1 {
   letter-spacing: 20px;
 }
 #tech-deet1 {
-  height: 50vh;
+  min-height: 50vh;
   background-color: black;
   color: white;
   position: relative;
@@ -692,7 +690,7 @@ footer h1 {
   text-align: end;
 }
 #tech-deet2 {
-  height: 40vh;
+  min-height: 40vh;
   background-color: black;
   color: white;
   position: relative;
@@ -707,7 +705,7 @@ footer h1 {
   font-size: 22px;
 }
 #tech-deet3 {
-  height: 40vh;
+  min-height: 40vh;
   background-color: black;
   color: white;
   position: relative;
@@ -725,7 +723,7 @@ footer h1 {
   text-align: end;
 }
 #tech-deet4 {
-  height: 50vh;
+  min-height: 50vh;
   background-color: black;
   color: white;
   position: relative;
