@@ -268,6 +268,13 @@ figure figcaption {
   position: relative;
   padding: 5% 10% 5% 5%;
 }
+#techteam {
+  min-height: 70vh;
+  background-color: black;
+  color: white;
+  position: relative;
+  padding-top:2%;
+}
 #tech-info2 h1 {
   font-size: 52px;
   margin-bottom: 2px;
@@ -737,3 +744,23 @@ footer h1 {
 #tech-deet4 p {
   font-size: 22px;
 }
+#leader img {
+  height: 80vh;
+  width: 25%;
+}
+#leader h1{
+  font-size: 44px;
+}
+.peasant {
+  display: inline-block;
+  width: 20%;
+  height: 100vh;
+  margin-left: 1%;
+}
+.peasant img {
+  height: 80%;
+  width: 100%;
+}
+/* #leader h1{
+  float:right
+} */
