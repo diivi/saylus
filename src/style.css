@@ -426,7 +426,7 @@ figure figcaption {
 
   .section ol figure
   {
-    transform: translate(-17.5%,0);
+    transform: translate(-13%,0);
   }
 
   .title,
@@ -784,3 +784,41 @@ footer h1 {
 /* #leader h1{
   float:right
 } */
+
+
+/* It was getting too hard to find shit (using 1 sheet was a bad iededeaddada), so marketing ke styles are here + new media query block */
+.marketing-flex 
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.bold
+{
+  font-weight: 500; /*not actually bold but wrt. the other text preddy bold*/
+}
+
+.marketing-flex figure
+{
+  margin: 65px 20px 0 10px;
+}
+
+@media (max-width: 1000px)
+{
+  .marketing-flex
+  {
+    display: block;
+  }
+
+  .marketing-flex figure
+  {
+    transform: translate(-5%,0);
+  }
+
+  .section figure
+  {
+    transform: translate(-5%,0);
+  }
+}
