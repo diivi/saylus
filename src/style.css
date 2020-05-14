@@ -858,3 +858,7 @@ img {
 .leloinfo:hover {
   background-color: #333333;
 }
+.social a:hover {
+  opacity: 1 !important;
+  transition: 0.2s linear;
+}
