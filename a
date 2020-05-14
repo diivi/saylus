@@ -1,0 +1,102 @@
+[33mcommit 2d4e78cb3068d599bf8c4872ba55c8d8b9b9b603[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Divyansh <divi.sunway@gmail.coom>
+Date:   Wed May 13 16:26:42 2020 +0530
+
+    tech responsiv
+
+[33mcommit edd780f75134f7a090a35f74bf18b6eeffc138a9[m
+Author: Divyansh <divi.sunway@gmail.coom>
+Date:   Wed May 13 13:36:35 2020 +0530
+
+    tech non-responsive
+
+[33mcommit 061e66fd7ff074a9b8a63744f339f182b69dedc2[m
+Author: Santripta Sharma <santripta@gmail.com>
+Date:   Tue May 12 12:17:35 2020 +0530
+
+    smol changes
+
+[33mcommit 83a6b5e7abac2aa156ccdb0e53733426e7315bc0[m[33m ([m[1;31morigin/financials[m[33m)[m
+Author: Santripta Sharma <santripta@gmail.com>
+Date:   Tue May 12 12:13:46 2020 +0530
+
+    mostly done with a few little thingies that i did
+
+[33mcommit c9575f6c5739916e1f0e756209c7ee1587ad58c1[m
+Merge: 780364b c9afd18
+Author: Santripta Sharma <santripta@gmail.com>
+Date:   Tue May 12 10:43:29 2020 +0530
+
+    Merge branch 'master' of github.com:divided7/saylus
+
+[33mcommit c9afd18d4f6a23a62727a6be894ba20337e9a338[m
+Author: Santripta Sharma <santripta@gmail.com>
+Date:   Mon May 11 17:32:33 2020 +0530
+
+    Update style.css
+
+[33mcommit 780364bbc61a1f14ed45cd37d4b629208c0141d3[m
+Author: Santripta Sharma <santripta@gmail.com>
+Date:   Mon May 11 17:29:58 2020 +0530
+
+    fix annoying vscode warning
+
+[33mcommit 8a37f156a045886a0a76a6d513f32323d2f44413[m
+Author: Santripta Sharma <santripta@gmail.com>
+Date:   Mon May 11 17:29:15 2020 +0530
+
+    small adjustments
+
+[33mcommit cb6d3b4306b580d98b09a98e06627e606c5304b3[m
+Author: Santripta Sharma <santripta@gmail.com>
+Date:   Mon May 11 17:09:06 2020 +0530
+
+    set up hot reload
+
+[33mcommit eec05ebd9ec4ff1629fb6af808b964d5623c7429[m
+Author: Divyansh <divi.sunway@gmail.coom>
+Date:   Mon May 11 16:32:44 2020 +0530
+
+    done finlly
+
+[33mcommit 90a76b4194a84778b58fed78abea8f9710f38286[m
+Author: Divyansh <divi.sunway@gmail.coom>
+Date:   Mon May 11 14:26:54 2020 +0530
+
+    dumb
+
+[33mcommit 3df1d8e47a1c94dd4d72a191cf92a497c616621a[m
+Author: Divyansh <divi.sunway@gmail.coom>
+Date:   Mon May 11 14:23:46 2020 +0530
+
+    dumb
+
+[33mcommit c3e89b1e67f20a4e84784989579e3762a77fba0c[m
+Author: Divyansh <divi.sunway@gmail.coom>
+Date:   Mon May 11 13:58:43 2020 +0530
+
+    bug
+
+[33mcommit ba8cdc69559a260889e309b9cf28f8dd6190994e[m
+Author: Divyansh <divi.sunway@gmail.coom>
+Date:   Mon May 11 12:45:45 2020 +0530
+
+    khatam just mobile navbar left
+
+[33mcommit 0bb3997151a707d76d9f58cac3cd8baeac7505b7[m
+Author: Divyansh <divi.sunway@gmail.coom>
+Date:   Mon May 11 11:24:25 2020 +0530
+
+    navbar left
+
+[33mcommit 3dbcb4343d58f77db9a78dc231361fc839b4e82d[m
+Author: Divyansh <divi.sunway@gmail.coom>
+Date:   Mon May 11 11:08:57 2020 +0530
+
+    responsiv take1
+
+[33mcommit b1fd658117d155409ae2888ca56310a04260e369[m
+Author: Divyansh <divi.sunway@gmail.coom>
+Date:   Mon May 11 09:33:29 2020 +0530
+
+    Initial

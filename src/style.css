@@ -80,7 +80,11 @@ figure figcaption {
 }
 
 .section figure {
+<<<<<<< HEAD
   margin: 20px 0;
+=======
+  margin: 50px 0;
+>>>>>>> b6f500347f4ef203bf08842b29e24f2cf367bc81
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -88,11 +92,14 @@ figure figcaption {
   align-items: center;
 }
 
+<<<<<<< HEAD
 .section ol figure
 {
   transform: translate(-9%,0);
 }
 
+=======
+>>>>>>> b6f500347f4ef203bf08842b29e24f2cf367bc81
 .section li {
   font-size: 2rem;
 }
@@ -173,7 +180,7 @@ figure figcaption {
 }
 #main-head {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   padding: 0px;
   background-color: black;
   display: inline-block;
@@ -199,7 +206,11 @@ figure figcaption {
 }
 #main-tech-head {
   width: 100%;
+<<<<<<< HEAD
   height: 70vh;
+=======
+  min-height: 70vh;
+>>>>>>> b6f500347f4ef203bf08842b29e24f2cf367bc81
   padding: 0px;
   background-color: black;
   display: inline-block;
@@ -251,7 +262,7 @@ figure figcaption {
 }
 
 #info2 {
-  height: 70vh;
+  min-height: 70vh;
   background-color: black;
   color: white;
   position: relative;
@@ -273,6 +284,16 @@ figure figcaption {
   position: relative;
   padding: 5% 10% 5% 5%;
 }
+<<<<<<< HEAD
+=======
+#techteam {
+  min-height: 70vh;
+  background-color: black;
+  color: white;
+  position: relative;
+  padding-top:2%;
+}
+>>>>>>> b6f500347f4ef203bf08842b29e24f2cf367bc81
 #tech-info2 h1 {
   font-size: 52px;
   margin-bottom: 2px;
@@ -283,7 +304,7 @@ figure figcaption {
 }
 
 #info3 {
-  height: 70vh;
+  min-height: 70vh;
   background-color: white;
   position: relative;
   padding: 5% 10% 5% 5%;
@@ -315,7 +336,11 @@ figure figcaption {
   font-size: 20px;
 }
 #tech-info4 {
+<<<<<<< HEAD
   height: 70vh;
+=======
+  min-height: 70vh;
+>>>>>>> b6f500347f4ef203bf08842b29e24f2cf367bc81
   background-color: white;
   position: relative;
   padding: 5% 10% 5% 5%;
@@ -330,7 +355,11 @@ figure figcaption {
   font-size: 20px;
 }
 #tech-info5 {
+<<<<<<< HEAD
   height: 40vh;
+=======
+  min-height: 40vh;
+>>>>>>> b6f500347f4ef203bf08842b29e24f2cf367bc81
   background-color: black;
   color: white;
   position: relative;
@@ -346,7 +375,11 @@ figure figcaption {
 }
 
 #tech-info6 {
+<<<<<<< HEAD
   height: 100vh;
+=======
+  min-height: 100vh;
+>>>>>>> b6f500347f4ef203bf08842b29e24f2cf367bc81
   background-color: white;
   position: relative;
   padding: 5% 10% 5% 5%;
@@ -362,7 +395,7 @@ figure figcaption {
 }
 
 #subscribe {
-  height: 60vh;
+  min-height: 60vh;
   background-color: white;
   position: relative;
   padding: 5% 10% 5% 5%;
@@ -407,6 +440,7 @@ figure figcaption {
 }
 
 @media only screen and (max-width: 1000px) {
+<<<<<<< HEAD
   figure img {
     width: 90vw;
   }
@@ -422,6 +456,8 @@ figure figcaption {
     transform: translate(-17.5%,0);
   }
 
+=======
+>>>>>>> b6f500347f4ef203bf08842b29e24f2cf367bc81
   .title,
   .title-in {
     padding: 10vh 5vw;
@@ -458,7 +494,11 @@ figure figcaption {
     font-size: 24px;
   }
   #main-tech-head {
+<<<<<<< HEAD
     height: 100vh;
+=======
+    min-height: 100vh;
+>>>>>>> b6f500347f4ef203bf08842b29e24f2cf367bc81
   }
   #main-tech-head h1 {
     margin-top: 90%;
@@ -477,9 +517,14 @@ figure figcaption {
   }
   #info1,
   #info2,
+<<<<<<< HEAD
   #info3
   {
     height: 80vh;
+=======
+  #info3 {
+    min-height: 80vh;
+>>>>>>> b6f500347f4ef203bf08842b29e24f2cf367bc81
     padding: 1% 5%;
   }
   #info1 h1,
@@ -495,10 +540,17 @@ figure figcaption {
     margin-top: 0px;
   }
   #tech-info4 {
+<<<<<<< HEAD
     height:110vh
   }
   #tech-info4 h1 {
     font-size: 40px!important;
+=======
+    min-height: 110vh;
+  }
+  #tech-info4 h1 {
+    font-size: 40px !important;
+>>>>>>> b6f500347f4ef203bf08842b29e24f2cf367bc81
     margin-bottom: 4px;
   }
   #tech-info4 p {
@@ -506,14 +558,22 @@ figure figcaption {
     margin-top: 0px;
   }
   #tech-info5 {
+<<<<<<< HEAD
     height:60vh
+=======
+    min-height: 60vh;
+>>>>>>> b6f500347f4ef203bf08842b29e24f2cf367bc81
   }
   #tech-info5 p {
     font-size: 18px;
     margin-top: 0px;
   }
   #tech-info6 {
+<<<<<<< HEAD
     height:260vh
+=======
+    min-height: 260vh;
+>>>>>>> b6f500347f4ef203bf08842b29e24f2cf367bc81
   }
   #tech-deet1 {
     min-height: 100vh !important;
@@ -523,8 +583,13 @@ figure figcaption {
     float: left;
   }
   #tech-deet1 p {
+<<<<<<< HEAD
     font-size: 16px!important;
     text-align: start!important;
+=======
+    font-size: 16px !important;
+    text-align: start !important;
+>>>>>>> b6f500347f4ef203bf08842b29e24f2cf367bc81
   }
   #tech-deet2 {
     min-height: 60vh !important;
@@ -533,14 +598,20 @@ figure figcaption {
     font-size: 30px !important;
   }
   #tech-deet2 p {
+<<<<<<< HEAD
     font-size: 16px!important;
     text-align: start!important;
+=======
+    font-size: 16px !important;
+    text-align: start !important;
+>>>>>>> b6f500347f4ef203bf08842b29e24f2cf367bc81
   }
   #tech-deet3 {
     min-height: 50vh !important;
   }
   #tech-deet3 h1 {
     font-size: 30px !important;
+<<<<<<< HEAD
     float: left!important;
   }
   #tech-deet3 p {
@@ -548,18 +619,35 @@ figure figcaption {
     text-align: start!important;
   }
   #tech-deet4{
+=======
+    float: left !important;
+  }
+  #tech-deet3 p {
+    font-size: 16px !important;
+    text-align: start !important;
+  }
+  #tech-deet4 {
+>>>>>>> b6f500347f4ef203bf08842b29e24f2cf367bc81
     min-height: 70vh !important;
   }
   #tech-deet4 h1 {
     font-size: 30px !important;
   }
   #tech-deet4 p {
+<<<<<<< HEAD
     font-size: 16px!important;
     text-align: start!important;
   }
   #tech-info1,
   #tech-info2
    {
+=======
+    font-size: 16px !important;
+    text-align: start !important;
+  }
+  #tech-info1,
+  #tech-info2 {
+>>>>>>> b6f500347f4ef203bf08842b29e24f2cf367bc81
     min-height: 100vh;
   }
   #tech-info3 {
@@ -694,7 +782,11 @@ footer h1 {
   letter-spacing: 20px;
 }
 #tech-deet1 {
+<<<<<<< HEAD
   height: 50vh;
+=======
+  min-height: 50vh;
+>>>>>>> b6f500347f4ef203bf08842b29e24f2cf367bc81
   background-color: black;
   color: white;
   position: relative;
@@ -712,7 +804,11 @@ footer h1 {
   text-align: end;
 }
 #tech-deet2 {
+<<<<<<< HEAD
   height: 40vh;
+=======
+  min-height: 40vh;
+>>>>>>> b6f500347f4ef203bf08842b29e24f2cf367bc81
   background-color: black;
   color: white;
   position: relative;
@@ -727,7 +823,11 @@ footer h1 {
   font-size: 22px;
 }
 #tech-deet3 {
+<<<<<<< HEAD
   height: 40vh;
+=======
+  min-height: 40vh;
+>>>>>>> b6f500347f4ef203bf08842b29e24f2cf367bc81
   background-color: black;
   color: white;
   position: relative;
@@ -745,7 +845,11 @@ footer h1 {
   text-align: end;
 }
 #tech-deet4 {
+<<<<<<< HEAD
   height: 50vh;
+=======
+  min-height: 50vh;
+>>>>>>> b6f500347f4ef203bf08842b29e24f2cf367bc81
   background-color: black;
   color: white;
   position: relative;
@@ -759,3 +863,26 @@ footer h1 {
 #tech-deet4 p {
   font-size: 22px;
 }
+<<<<<<< HEAD
+=======
+#leader img {
+  height: 80vh;
+  width: 25%;
+}
+#leader h1{
+  font-size: 44px;
+}
+.peasant {
+  display: inline-block;
+  width: 20%;
+  height: 100vh;
+  margin-left: 1%;
+}
+.peasant img {
+  height: 80%;
+  width: 100%;
+}
+/* #leader h1{
+  float:right
+} */
+>>>>>>> b6f500347f4ef203bf08842b29e24f2cf367bc81
