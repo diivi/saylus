@@ -802,6 +802,17 @@ footer h1 {
   width: 100%;
   margin-top: 50px;
 }
+
+#leader .peasant img
+{
+  margin-top: 0;
+}
+
+#leader .peasant
+{
+  margin-bottom: 100px;
+}
+
 /* #leader h1{
   float:right
 } */
