@@ -88,9 +88,8 @@ figure figcaption {
   align-items: center;
 }
 
-.section ol figure
-{
-  transform: translate(-9%,0);
+.section ol figure {
+  transform: translate(-9%, 0);
 }
 
 .section li {
@@ -278,7 +277,11 @@ figure figcaption {
   background-color: black;
   color: white;
   position: relative;
-  padding-top:2%;
+  padding-top: 2%;
+}
+#finance {
+  min-height: 70vh;
+  padding-top: 2%;
 }
 #tech-info2 h1 {
   font-size: 52px;
@@ -424,9 +427,8 @@ figure figcaption {
     font-weight: 500;
   }
 
-  .section ol figure
-  {
-    transform: translate(-13%,0);
+  .section ol figure {
+    transform: translate(-13%, 0);
   }
 
   .title,
@@ -634,6 +636,21 @@ figure figcaption {
   .menu button:active {
     background-color: #555555;
   }
+  #techteam {
+    padding-bottom: 10%;
+  }
+  .peasant {
+    width: 80% !important;
+    height: 50vh !important;
+    margin: 0px;
+  }
+  #leader {
+    padding-bottom: 10%;
+  }
+  #leader img {
+    height: 50vh !important;
+    width: 100% !important;
+  }
 }
 @keyframes comein {
   from {
@@ -764,61 +781,49 @@ footer h1 {
 #tech-deet4 p {
   font-size: 22px;
 }
-#leader img {
-  height: 80vh;
-  width: 25%;
-}
-#leader h1{
+#leader h1 {
   font-size: 44px;
 }
 .peasant {
   display: inline-block;
   width: 20%;
-  height: 100vh;
+  height: 70vh;
   margin-left: 1%;
 }
 .peasant img {
-  height: 80%;
+  height: 50vh;
   width: 100%;
 }
 /* #leader h1{
   float:right
 } */
 
-
 /* It was getting too hard to find shit (using 1 sheet was a bad iededeaddada), so marketing ke styles are here + new media query block */
-.marketing-flex 
-{
+.marketing-flex {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: stretch;
 }
 
-.bold
-{
+.bold {
   font-weight: 500; /*not actually bold but wrt. the other text preddy bold*/
 }
 
-.marketing-flex figure
-{
+.marketing-flex figure {
   margin: 65px 20px 0 10px;
 }
 
-@media (max-width: 1000px)
-{
-  .marketing-flex
-  {
+@media (max-width: 1000px) {
+  .marketing-flex {
     display: block;
   }
 
-  .marketing-flex figure
-  {
-    transform: translate(-5%,0);
+  .marketing-flex figure {
+    transform: translate(-5%, 0);
   }
 
-  .section figure
-  {
-    transform: translate(-5%,0);
+  .section figure {
+    transform: translate(-5%, 0);
   }
 }
