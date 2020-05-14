@@ -45,3 +45,6 @@ function scrollFunction() {
         document.getElementById("logo").style.fontSize = "32px";
     }
 }
+function dePdf(){
+    window.location.href="./res/bhai.pdf";
+}
