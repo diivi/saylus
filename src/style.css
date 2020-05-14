@@ -279,6 +279,10 @@ figure figcaption {
   position: relative;
   padding-top: 2%;
 }
+#techteam h1,
+#finance h1 {
+  margin-top: 0%;
+}
 #finance {
   min-height: 70vh;
   padding-top: 2%;
@@ -637,7 +641,10 @@ figure figcaption {
     background-color: #555555;
   }
   #techteam {
-    padding-bottom: 0%;
+    padding-bottom: 0% !important;
+  }
+  h3 {
+    margin-top: -30px;
   }
   .peasant {
     width: 80% !important;
@@ -793,6 +800,7 @@ footer h1 {
 .peasant img {
   height: 50vh;
   width: 100%;
+  margin-top: 50px;
 }
 /* #leader h1{
   float:right
