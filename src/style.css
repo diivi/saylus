@@ -835,3 +835,6 @@ footer h1 {
     transform: translate(-5%, 0);
   }
 }
+img {
+  object-fit: cover;
+}
