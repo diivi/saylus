@@ -3,4 +3,9 @@ var typed =new Typed('#afety', {
       typeSpeed: 20,
       showCursor: false,
   });
-  
+function aboutleja(){
+  window.location.href="./about.html"
+}
+function homeleja(){
+  window.location.href="./index.html"
+}

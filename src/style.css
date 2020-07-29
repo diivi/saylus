@@ -5,44 +5,11 @@
 body{
   position: relative;
   background-color: #F1F1F1;
-
-  overflow: hidden;
+  overflow-x: hidden;
+  min-height: 100vh;
 }
 
 /* NAVBAR */
-.active::after{
-  position: absolute;
-  content: '';
-  height: 7px;
-  bottom: -4px;    
-  height: 7px;
-  border-radius: 3.5px; 
-  margin: -8px auto;
-	left: 0;
-  right: 0;
-  width: 80%;
-  background: #D3003C;
-	-o-transition:.5s;
-	-ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-   transition:.5s;
-}
-li{
-  list-style-type: none;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.6vw;
-  line-height: 54px;
-  color: #D3003C;
-  cursor: pointer;
-  position: relative;
-  display: inline-block;
-}
-li:not(:first-child){
-  margin-left: 64px;
-}
 li::after{
 	-o-transition:.5s;
 	-ms-transition:.5s;
@@ -66,6 +33,41 @@ li:hover::after{
   background: #D3003C;
 
 }
+.active::after{
+  position: absolute;
+  content: '';
+  height: 10px;
+  bottom: -4px;    
+  height: 7px;
+  border-radius: 3.5px; 
+  margin: -8px auto;
+	left: 0;
+  right: 0;
+  width: 10px;
+  background: #D3003C;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+   transition:.5s;
+}
+li{
+  list-style-type: none;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6vw;
+  line-height: 54px;
+  color: #D3003C;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+li:not(:first-child){
+  margin-left: 64px;
+}
+
 ul{
   text-align: center;
   width: 100%;
@@ -100,7 +102,7 @@ nav img{
 }
 .main .band img{
   height: 100%;
-  animation:spin 4s alternate infinite;
+  animation:spin 4s alternate infinite,fadeIn ease 1s;
 }
 .band,.txt{
   display: inline-block;
@@ -115,6 +117,7 @@ nav img{
   height: 40%;
   margin-top: 100%;
   float: left;
+  animation:fadeIn ease 1s
 }
 .txt p{
   display:  block;
@@ -128,7 +131,6 @@ nav img{
   font-weight: 600;
   font-size: 5vw;
   line-height: 7vw;
-
   color: #D3003C;
 
   
@@ -153,20 +155,104 @@ nav img{
   border: none;
   cursor: pointer;
   z-index: 20;
-}
-button:active{
+  transition: 0.2s linear;
   outline: none;
 }
-@keyframes spin {
-   0% {  transform:rotate(10deg)}; 
-  100%{ transform:rotate(0deg)}
-  } 
-@keyframes float{
-  0% {  transform:translateX(-20px);
-        transform: translateY((-10px))
-    }; 
-  100%{ transform:translateX(0px);
-        transform: translateY((-10px))
-  }
+.main button:hover{
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
 }
+
+
 /* MAIN KHATAM */
+
+/* ABOUT */
+.about{
+  height: 50vh;
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  background-color: #FFFFFF;
+  width: 100vw;
+  padding: 2% 3%;
+}
+.about h1{
+  /* What is SAYLUS? */
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 96px;
+line-height: 117px;
+/* identical to box height */
+
+color: #D3003C;
+
+
+}
+.about p{
+  /* lorem ipsum wjdwjddwidjdwjdiwdwcfefefefefefefefeifewewe i like divi very much qt qt djwidwji iwdjwid idwidjwdw idijwidjw yes i do ver very bone collar lyk mmm */
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 58px;
+width: 90%;
+margin-top: 2%;
+color: #D3003C;
+
+
+}
+.about button{
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 39px;
+background-color: white;
+padding: 20px 40px;
+border-radius: 96.5px;
+color: #D3003C;
+margin-top: 40px;
+border: 1px solid #D3003C;
+transition: 0.5s linear;
+cursor: pointer;
+}
+.about button:hover{
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 39px;
+  background-color: #D3003C;
+  padding: 20px 40px;
+  border-radius: 96.5px;
+  color: white;
+  margin-top: 40px;
+  
+  }
+/* ABOUT KHATAM */
+/* ANIMATIONS */
+@keyframes spin {
+  0% {  transform:rotate(10deg)}; 
+ 100%{ transform:rotate(0deg)}
+ } 
+@keyframes float{
+ 0% {  transform:translateX(-20px);
+       transform: translateY((-10px))
+   }; 
+ 100%{ transform:translateX(0px);
+       transform: translateY((-10px))
+ }
+}
+@keyframes fadeIn {
+ 0% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
+}
+/* ANIMATIONS KHATAM */
