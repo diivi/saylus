@@ -202,7 +202,7 @@ margin-bottom: 60px;
 
 font-family: Poppins;
 font-style: normal;
-font-weight: 500;
+font-weight: 300;
 font-size: 22px;
 line-height: 33px;
 
@@ -225,6 +225,22 @@ color: #DF3F3F;
 border-radius: 63px;
 }
 /* ABOUT KHATAM */
+/* TEAM START */
+.leftab.team h1{
+  text-align:center;
+  margin-top:5%;
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 96px;
+text-align: center;
+
+color: #DF3F3F;
+
+
+}
+/* TEAM KHATAM */
 /* ANIMATIONS */
 @keyframes spin {
   0% {  transform:rotate(10deg)}; 
