@@ -1,6 +1,8 @@
 *{
   margin: 0px;
   padding: 0px;
+  border:none;
+  outline:none;
 }
 body{
   position: relative;
@@ -8,7 +10,9 @@ body{
   min-height: 100vh;
   overflow-x:hidden
 }
-
+.div1{
+  background-color: transparent!important;
+}
 /* NAVBAR */
 li::after{
 	-o-transition:.5s;
@@ -77,7 +81,7 @@ ul{
 }
 nav{
   position: sticky;
-  height: 6vw;
+  height: 8vh;
   top:0;
   z-index: 9999;
   transition:0.3s linear
@@ -87,7 +91,7 @@ nav img{
   display: inline-block;
   height: inherit;
   left: 5vw;
-  height: 80%;
+  height: 100%;
   top:10%
 }
 /* NAVBAR KHATAM */
@@ -96,26 +100,43 @@ nav img{
 width:100vw;
 padding: 0px;
 margin: 0px;
+margin-top:5vh;
 position: relative;
-min-height: 70vh;
 }
 
 .bands{
-  width:55%;
+  width:50%;
   position:absolute;
   z-index: 1;
   left: 50%;
   transform: translate(-50%,0%);
+}
+.first{
+  position: relative;
+}
+.word{
+  position:absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  /* SAYLUS */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 7.5vw;
+  text-align: center;
 
+  color: #FFFFFF;
 }
 .balls{
   z-index: 0;
   position:relative;
   left: 50%;
   transform: translateX(-50%);
-  width:45%;
+  width:40%;
 }
-.centrr h1{
+.motto{
 position: relative;
 
 font-family: Poppins;
@@ -126,11 +147,82 @@ line-height: 99px;
 text-align: center;
 
 color: #FFFFFF;
+margin-bottom: 20px;
 }
 /* HOME KHATAM */
 /* ABOUT START */
 .about{
-  height:100vh
+  min-height:100vh;
+  width:100vw;
+}
+.leftab{
+  width:50%;
+  float: left;
+  height: 100vh;
+  background-color: #FFFFFF;
+  position: relative;
+}
+.rightab{
+  width:50%;
+  height: 100vh;
+  float: right;
+  background-color: #F2F2F2;
+  position: relative;
+}
+.leftab.dband{
+  background-color: #F2F2F2;
+}
+.rightab.dband{
+  background-color: #FFFFFF;
+}
+.leftab.team{
+  width:100%;
+}
+.texts{
+  width:520px;
+  margin: 0px;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform:translate(-50%,-50%)
+}
+.texts h1{
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 96px;
+line-height: 144px;
+
+color: #DF3F3F;
+margin-bottom: 60px;
+}
+.texts p{
+
+  margin-bottom: 60px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 33px;
+
+color: #030303;
+
+
+}
+.texts button{
+border: 1px solid #DF3F3F;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 33px;
+padding:8px 44px;
+color: #DF3F3F;
+
+
+border-radius: 63px;
 }
 /* ABOUT KHATAM */
 /* ANIMATIONS */
@@ -155,3 +247,16 @@ color: #FFFFFF;
  }
 }
 /* ANIMATIONS KHATAM */
+/* SCROLLBAR */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+    ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+
+    }
+    ::-webkit-scrollbar-thumb {
+    background: #DF3F3F; 
+    border-radius:5px
+    }
+/* SCROLLBAR KHATAM */
