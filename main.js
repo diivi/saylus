@@ -1,11 +1,16 @@
-var typed =new Typed('#afety', {
-      strings: ['A F E T Y <br> I M P L I F I E D'],
-      typeSpeed: 20,
-      showCursor: false,
-  });
-function aboutleja(){
-  window.location.href="./about.html"
-}
-function homeleja(){
-  window.location.href="./index.html"
+var myNav = document.getElementById('navbar');
+window.onscroll = function  scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("navbar").style.backgroundColor = "white";
+    items=document.getElementsByClassName("navlink");
+    for (var i=0; i < items.length; i++) {
+      items[i].style.color = "#BABABA";
+    }
+  } else {
+    document.getElementById("navbar").style.backgroundColor = "";
+    items=document.getElementsByClassName("navlink");
+    for (var i=0; i < items.length; i++) {
+      items[i].style.color = "white";
+    }
+  }
 }
