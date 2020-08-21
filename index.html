@@ -14,7 +14,7 @@
       <ul>
         <li class="navlink">About</li>
         <li class="navlink">Bracelet</li>
-        <li class="navlink">Safe GPS</li>
+        <li class="navlink" onclick="window.location.href='./safegps.html'">Safe GPS</li>
         <li class="navlink">Subscriptions</li>
       </ul>
     </nav>
@@ -54,16 +54,63 @@
           <button>Talk to us</button>
         </div>
       </div>
-      <div class="rightab dband">
+      <div class="rightab dband" id="model">
 
       </div>
     </div>
     <div class="about">
-      <div class="leftab team">
+      <div class="rightab team">
         <h1>Our Team</h1>
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@latest/lib/typed.min.js"></script>
     <script src="./main.js"></script>
+    <script src="https://threejs.org/build/three.min.js"></script>
+<script src="./objload.js"></script>
+<script src="./mtlload.js"></script>
+<script src="./obc.js"></script>
+  <script>
+scene = new THREE.Scene();
+scene.background = new THREE.Color(0xdddddd);
+camera = new THREE.PerspectiveCamera(40,window.innerWidth/window.innerHeight,1,5000);
+camera.rotation.y = 45/180*Math.PI;
+camera.position.x = 800;
+camera.position.y = 100;
+camera.position.z = 1000;
+renderer = new THREE.WebGLRenderer({antialias:true});
+renderer.setSize(window.innerWidth,window.innerHeight);
+document.getElementById('model').appendChild( renderer.domElement );
+
+var controls = new THREE.OrbitControls( camera, renderer.domElement );
+
+controls.update();
+
+var mtlLoader = new THREE.MTLLoader();
+mtlLoader.setTexturePath("/models/")
+mtlLoader.setPath('/models/')
+mtlLoader.load('band.mtl',function(materials){
+  materials.preload();
+  var objLoader = new THREE.OBJLoader();
+  objLoader.setMaterials(materials)
+  objLoader.setPath('/models/')
+  objLoader.load('band.obj',function( obj ) {
+    obj.position.x=-4
+    scene.add(obj)
+  })
+})
+var light = new THREE.AmbientLight( 0x404040 ); // soft white light
+scene.add( light );
+
+
+camera.position.x = 0;
+camera.position.y = 0;
+camera.position.z = 10;
+
+function animate() {
+	requestAnimationFrame( animate );
+	renderer.render( scene, camera );
+}
+animate();
+  </script>
   </body>
 </html>

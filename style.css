@@ -4,6 +4,16 @@
   border:none;
   outline:none;
 }
+#safegps{
+  background-color:#F2F2F2;
+  background-image: url(../res/triangl.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: 50% 75%;
+}
+#safegps .navlink{
+  color:#BABABA
+}
 body{
   position: relative;
   background-color: #DF3F3F;
@@ -58,7 +68,6 @@ li{
   list-style-type: none;
   font-family: Poppins;
   font-style: normal;
-  font-weight: 500;
   font-size: 1.2vw;
   line-height: 54px;
   color: white;
@@ -81,7 +90,7 @@ ul{
 }
 nav{
   position: sticky;
-  height: 8vh;
+  height: 10vh;
   top:0;
   z-index: 9999;
   transition:0.3s linear
@@ -91,7 +100,7 @@ nav img{
   display: inline-block;
   height: inherit;
   left: 5vw;
-  height: 100%;
+  height: 80%;
   top:10%
 }
 /* NAVBAR KHATAM */
@@ -141,8 +150,8 @@ position: relative;
 
 font-family: Poppins;
 font-style: normal;
-font-weight: 500;
-font-size: 66px;
+font-weight: 300;
+font-size: 56px;
 line-height: 99px;
 text-align: center;
 
@@ -175,7 +184,7 @@ margin-bottom: 20px;
 .rightab.dband{
   background-color: #FFFFFF;
 }
-.leftab.team{
+.rightab.team{
   width:100%;
 }
 .texts{
@@ -190,7 +199,7 @@ margin-bottom: 20px;
 font-family: Poppins;
 font-style: normal;
 font-weight: bold;
-font-size: 96px;
+font-size: 4vw;
 line-height: 144px;
 
 color: #DF3F3F;
@@ -226,7 +235,7 @@ border-radius: 63px;
 }
 /* ABOUT KHATAM */
 /* TEAM START */
-.leftab.team h1{
+.rightab.team h1{
   text-align:center;
   margin-top:5%;
 font-family: Poppins;
@@ -241,6 +250,65 @@ color: #DF3F3F;
 
 }
 /* TEAM KHATAM */
+/* SAFEGPS START */
+
+.gpstext{
+  display: inline-block;
+  width:50%;
+  padding:5% 10%
+}
+.phone{
+  display: inline-block;
+  width:50%;
+  position: absolute;
+  right: 1%;
+  text-align: center;
+  top:35%;
+  transform: translateY(-25%)
+}
+.gpstext h1{
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 7vw;
+line-height: 144px;
+/* identical to box height */
+
+color: #DF3F3F;
+}
+.gpstext h2{
+  /* What is Safe GPS? */
+
+width: 336px;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 1.8vw;
+line-height: 54px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.gpstext p{
+
+width: 33vw;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 1.1vw;
+line-height: 1.4vw;
+
+color: #030303;
+
+
+}
+/* SAFEGPS KHATAM */
 /* ANIMATIONS */
 @keyframes spin {
   0% {  transform:rotate(10deg)}; 

@@ -3,7 +3,6 @@ window.onscroll = function  scrollFunction() {
   var $nav = $("#navbar");
   var maincon=$('.centrr');
   var navimg = $('nav img')
-  $nav.toggleClass('div1', $(this).scrollTop() > maincon.height()+$nav.height());
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
     document.getElementById("navbar").style.backgroundColor = "white";
     items=document.getElementsByClassName("navlink");
