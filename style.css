@@ -12,7 +12,7 @@
   background-size: 50% 75%;
 }
 #safegps .navlink:after{
-  background-color: #DF3F3F;
+  background-color: #DF3F3F ;
 }
 #safegps .navlink{
   color:#BABABA
@@ -275,8 +275,7 @@ font-style: normal;
 font-weight: bold;
 font-size: 7vw;
 line-height: 144px;
-/* identical to box height */
-
+margin-bottom: 5%;
 color: #DF3F3F;
 }
 .gpstext h2{
@@ -351,3 +350,148 @@ color: #030303;
     border-radius:5px
     }
 /* SCROLLBAR KHATAM */
+@media only screen and (max-width:1000px){
+  li {
+    font-size: 2.4vw;
+    line-height: 12vw;
+}
+li:not(:first-child) {
+  margin-left: 4vw;
+}
+nav img {
+  position: absolute;
+  display: inline-block;
+  height: inherit;
+  left: 0vw;
+  height: 80%;
+  top: 10%;
+}
+.texts{
+  width:auto;
+  top:0px;
+  left:5%;
+  transform:translate(0%,0%);
+  position:relative;
+  width:85%
+}
+.texts p {
+  margin-bottom: 60px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #030303;
+}
+.rightab,.leftab{
+ float: none;
+ display: block;
+ width: 100vw;
+ min-height:33vh;
+}
+.rightab.dband{
+  height:50vh
+}
+.leftab.dband{
+  height:initial;
+  min-height:60vh;
+  padding:15% 0%
+}
+.rightab{
+  height:initial;
+  min-height:40vh;
+  padding:15% 0%
+}
+.leftab{
+  height: 50vh;
+}
+.texts button {
+  border: 1px solid #DF3F3F;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 33px;
+  padding: 8px 32px;
+  color: #DF3F3F;
+  border-radius: 32px;
+}
+.texts h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 8vw;
+  line-height: 8vw;
+  color: #DF3F3F;
+  margin-bottom: 30px;
+}
+.about .rightab.team{
+  height:100vh  
+}
+.rightab.team h1 {
+  text-align: center;
+  margin-top: 0%;
+  font-size:12vw
+}
+nav{
+  height: 6vh;
+}
+ul{
+  text-align:right
+}
+li:last-child {
+  margin-right: 4vw;
+}
+li:hover::after {
+  width: 0%;
+  background: white;
+}
+.gpstext {
+  display: block;
+  width: auto;
+  padding: 5% 10%;
+}
+.phone{
+  display: block;
+  height: auto;
+  position: absolute;
+  right: 10%;
+  text-align: center;
+  top: 75vh;
+  transform: translateY(-50%);
+}
+.gpstext h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 7vw;
+  line-height: 5vw;
+  margin: 15% 0%;
+  color: #DF3F3F;
+}
+.gpstext h2 {
+  width: 100%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 7vw;
+  line-height: 6vw;
+  color: #000000;
+}
+.gpstext p {
+  width: 100%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3vw;
+  line-height: 5vw;
+  color: #030303;
+}
+.phone img{
+  height:350px
+}
+#safegps {
+  background-position: 100% 100%;
+  background-size: 75% 50%;
+}
+}
